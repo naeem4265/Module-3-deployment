@@ -76,7 +76,7 @@ jobs:
               run: |
                 ls -a
                 pm2 status
-                # delete node-app process
+                # delete node-app 
                 pm2 delete node-app || true
 
                 # pm2 restart all
